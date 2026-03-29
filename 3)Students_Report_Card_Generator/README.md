@@ -40,10 +40,8 @@ Students-Report-Card-Generator/
 │
 ├── analysis.py
 ├── report_generator.py
-├── main.py
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 │
 ├── data/
 │   └── file.txt
@@ -54,7 +52,7 @@ Students-Report-Card-Generator/
 │   ├── img2.png
 │   └── ...
 │
-├── reports/
+├── report/
 ```
 
 ---
