@@ -78,8 +78,7 @@ Simran 104 11-11-2006 90 92 89 94 95
   * Name
   * Roll_No
   * DOB
-* Remaining columns must be subject marks (out of 100).
-* You can add more subjects by adding more columns.
+* Remaining 5 columns must be subject marks (out of 100).
 
 ---
 
@@ -105,7 +104,7 @@ img3.png
 **Note:** The image number must match the student’s position in the data file (excluding header).
 If the order of students in the data file changes, the image names must also be updated accordingly.
 
-Image format can be `.png` or `.jpg`.
+Image format can be `.png` only.
 
 ---
 
@@ -136,7 +135,7 @@ images/
 ### Step 4 — Run the Program
 
 ```
-python main.py
+python generate_report_card.py
 ```
 
 ### Step 5 — Get Reports
@@ -144,7 +143,7 @@ python main.py
 Generated report cards will be saved in:
 
 ```
-reports/
+report/
 ```
 
 ---
@@ -171,7 +170,7 @@ The program generates a PDF report card for each student containing:
 ## Example Workflow
 
 ```
-data/file.txt  →  analysis.py  →  report_generator.py  →  reports/student_report.pdf
+data/file.txt  →  analysis.py  →  report_generator.py  →  report/student_report.pdf
 ```
 
 ---
@@ -188,4 +187,4 @@ data/file.txt  →  analysis.py  →  report_generator.py  →  reports/student_
 
 ## Author
 
-Your Name
+Ishdeep
