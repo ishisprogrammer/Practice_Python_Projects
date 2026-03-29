@@ -1,4 +1,0 @@
-Name        RollNo  DOB         Math  Hindi  Eng  Science  SSt
-Aadhya      1       14-03-2007  67    60     87   96       61
-Aarav       2       22-11-2006  79    74     72   62       66
-
