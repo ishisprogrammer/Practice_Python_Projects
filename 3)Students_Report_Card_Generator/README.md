@@ -52,7 +52,7 @@ Students-Report-Card-Generator/
 │   ├── img2.png
 │   └── ...
 │
-├── report/
+├── reports/
 ```
 
 ---
